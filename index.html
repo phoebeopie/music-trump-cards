@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Trump Cards</title>
+    <title>Music Cards</title>
     <style>
         * {
             margin: 0;
@@ -112,7 +112,7 @@
             text-align: center;
         }
 
-        .trump-card {
+        .card {
             background: white;
             border-radius: 15px;
             padding: 30px;
@@ -227,7 +227,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎵 Music Trump Cards</h1>
+        <h1>🎵 Music Cards</h1>
 
         <div class="search-container">
             <div class="input-group">
@@ -321,7 +321,7 @@
             const cardContainer = document.getElementById('cardContainer');
             
             const card = document.createElement('div');
-            card.className = 'trump-card';
+            card.className = 'song-card';
             
             card.innerHTML = `
                 <div class="card-header">
